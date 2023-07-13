@@ -1,0 +1,21 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "sampleadfdevelopment"
+		},
+		"ls_AdlsGen2_datafile_input_accountKey": {
+			"value": ""
+		},
+		"ls_AdlsGen2_datafile_input_properties_typeProperties_url": {
+			"value": "https://adlsgen2developmentstg.dfs.core.windows.net/"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
