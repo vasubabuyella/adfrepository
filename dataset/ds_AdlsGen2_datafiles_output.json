@@ -1,0 +1,23 @@
+{
+	"name": "ds_AdlsGen2_datafiles_output",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ls_AdlsGen2_datafile_input",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"folderPath": "output",
+				"fileSystem": "datafiles"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	}
+}
